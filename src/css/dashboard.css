@@ -1,0 +1,72 @@
+.box-container {
+    margin: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.dashboard-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.dashboard-header h1{
+   font-size: 50px;
+   font-weight: 500;
+}
+
+.dashboard-header h1 span{
+    font-size: 40px;
+    font-weight: 300;
+ }
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid var(--primary-color);
+    background-color: rgb(181, 181, 181);
+}
+
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.card {
+    padding: 20px 70px 20px 70px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0,0.2);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card h3 {
+    font-weight: 500;
+}
+
+.card h1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+
+}
+.card h1 span {
+    font-weight: 300;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.graph {
+    min-width: 300px;
+    min-height: 300px;
+    background-color: rgb(233, 233, 233);
+}

@@ -1,0 +1,61 @@
+.profile-header {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    border: 1px solid var(--primary-color);
+    background-color: rgb(193, 193, 193);
+}
+
+.profile-info {
+    margin: 20px;
+}
+
+
+.profile-info p{
+    color: var(--primary-color);
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+
+}
+
+.vertical-line {
+    width: 1px;
+    height: 50vh;
+    background-color: #939393;
+}
+
+
+.profile-info th{
+    text-align: start;
+    font-weight: 400;
+    padding: 15px;
+    color: var(--primary-color);
+}
+
+.profile-info td{
+    padding-left: 20px;
+    text-align: end;
+    font-size: small;
+    color: #939393;
+}
+
+#edit-password {
+    padding: 0px 20px 0px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--green-color);
+    color: white;
+    
+}
